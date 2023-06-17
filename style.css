@@ -1,0 +1,362 @@
+body {
+    width: fit-content;
+    margin: 0;
+    text-align: center;
+}
+
+.top-container {
+    position: relative;
+
+    color: #66bfbf;
+    background-color: #e4f9f5;
+
+
+}
+
+.top-cloud {
+    position: relative;
+    top: 40px;
+    left: 300px;
+
+}
+
+.title-text {
+    position: relative;
+
+    font-weight: 500;
+    font-size: 4rem;
+    font-family: "Sacramento", cursive;
+}
+
+.sub-head {
+    font-weight: 500;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.bottom-cloud {
+    position: relative;
+    right: 300px;
+    top: 150px;
+
+
+}
+
+.mountain {
+    position: relative;
+
+}
+
+.hello {
+    margin: 50px;
+    font-family: sans-serif;
+    color: #66bfbf;
+    font-weight: 300;
+}
+
+
+
+.intro {
+    margin: auto;
+    width: 30%;
+    font-size: 1.5rem;
+
+}
+
+
+
+.img {
+
+    height: 200px;
+}
+
+.skills {
+    margin: 100px auto;
+    font-family: sans-serif;
+    color: #66bfbf;
+    font-weight: 300;
+}
+
+.img {
+    margin-top: 100px;
+}
+
+
+.hr {
+    margin: 100px auto;
+    width: 5%;
+    border: dotted #ccf5f5;
+    border-bottom: none;
+}
+
+.story {
+    margin: auto;
+    padding: 0 50px;
+}
+
+.code-img {
+    height: 150px;
+    width: 150px;
+    margin-top: 30px;
+    border-radius: 50%;
+
+}
+
+
+.head-intro {
+    font-family: sans-serif;
+
+
+}
+
+.journey {
+    font-size: 1.5rem;
+    width: 60%;
+    margin: auto;
+}
+
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.edu-image {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 70px;
+
+}
+
+.Education {
+    margin-top: 40px;
+    margin: auto;
+
+
+}
+
+.edu-head {
+    font-family: sans-serif;
+}
+
+
+.edu-bio {
+    font-size: 1.5rem;
+    width: 60%;
+    margin: auto;
+
+}
+
+
+
+
+.btn {
+
+
+    margin: 10px 20px;
+    background: #11cdd4;
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.Projects {
+    margin-top: 100px;
+}
+
+.project-head {
+    font-family: sans-serif;
+}
+
+.projects-list {
+    margin-top: 50px;
+}
+
+/*
+
+.btn {
+
+
+    margin: 10px 20px;
+    background: #11cdd4;
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+*/
+
+
+.btn {
+    text-align: center;
+    margin: 10px 20px;
+    background: #11cdd4;
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.contact,
+.contact-me {
+
+    font-family: "Merriweather", serif;
+
+}
+
+
+.connect {
+    font-weight: 200;
+    color: #11cdd4;
+    font-family: "Montserrat", sans-serif;
+}
+
+.hot-wings {
+    margin-top: 50px;
+    font-family: "Montserrat", sans-serif;
+    color: #11999e;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.wings {
+
+    width: 50%;
+    margin: 60px auto 40px auto;
+
+
+}
+
+.container-fluid {
+
+    margin-top: 50px;
+    background-color: #11cdd4;
+    padding: 100px;
+}
+
+.socials {
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+}
+
+.socials>* {
+    padding: 20px;
+    color: #11999e;
+    text-decoration: none;
+}
+
+.text-center {
+    color: rgb(240, 204, 204);
+}
+
+
+@media only screen and (max-width: 600px) {
+
+
+
+    .title-text {
+
+        font-size: 3rem;
+    }
+
+    .sub-head {
+        font-size: 1.5rem;
+    }
+
+    .mountain {
+        width: 70%;
+        margin-top: 100px;
+    }
+
+    .top-cloud {
+        width: 100px;
+        margin-right: 300px;
+    }
+
+    .bottom-cloud {
+        width: 100px;
+        position: relative;
+        top: 150px;
+        right: 150px;
+    }
+
+    .img {
+        height: 150px;
+    }
+
+    .intro {
+        width: 60%;
+    }
+
+    .code-img {
+        margin: auto;
+    }
+
+    .journey {
+
+        width: fit-content;
+    }
+
+
+    .head-intro {
+        width: fit-content;
+        margin: auto;
+        padding-top: 10px;
+    }
+
+    .edu-image {
+        margin: auto;
+        display: block;
+        margin-top: 100px;
+    }
+
+    .parent {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .edu-bio {
+
+    
+        width: fit-content;
+    }
+
+    .edu-head {
+        width: auto;
+    }
+
+
+    .Education {
+
+        padding: 0 50px;
+        width: fit-content;
+    }
+
+    .projects-list {
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+    .socials {
+        display: flex;
+    }
+
+}
